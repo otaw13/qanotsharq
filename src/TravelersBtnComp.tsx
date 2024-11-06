@@ -3,9 +3,9 @@ import DropDownFunctionality from "./DropDownFunctionality";
 
 export default function TravelersBtnComp() {
   const [totalPriceCount, setTotalPriceCount] = useState(0);
-  const [childPriceCounts, setChildPriceCounts] = useState([0, 0, 0, 0]);
+  const [, setChildPriceCounts] = useState([0, 0, 0, 0]);
   const [totalCount, setTotalCount] = useState(0);
-  const [childCounts, setChildCounts] = useState([0, 0, 0, 0]);
+  const [, setChildCounts] = useState([0, 0, 0, 0]);
 
   const updateTotalPriceCount = (index: number, newPriceCount: number) => {
     setChildPriceCounts((prevPriceCounts) => {

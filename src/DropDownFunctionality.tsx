@@ -11,7 +11,7 @@ type Props = {
 
 export default function DropDownFunctionality(props: Props) {
   let [count, setCount] = useState(0);
-  let [priceCount, setPriceCount] = useState(0);
+  let [, setPriceCount] = useState(0);
 
   
   function handleCountChange(amount: number) {
